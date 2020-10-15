@@ -1,7 +1,8 @@
 ##Task 1: Replicating head function
 #Load variable file in 
 setwd("~/Documents/Biocomputing2020_Tutorial09/")
-textFile <- scan(file = "filename.txt")
+fileName <-  "filename.txt"
+textFile <- scan(file = fileName)
 #Let A = # of lines 
 #Take top # of lines by indexing and print
 A <- 10 
